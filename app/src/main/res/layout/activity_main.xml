@@ -22,5 +22,17 @@
               android:singleLine="true"
               />
 
+    <TextView
+              android:id="@+id/txt_resultado"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:text="6"
+              android:textColor="@color/black"
+              android:textSize="10sp"
+              android:gravity="end"
+              android:layout_marginEnd="10dp"
+              android:ellipsize="end"
+              android:maxLines="1"
+              />
 
 </LinearLayout>
