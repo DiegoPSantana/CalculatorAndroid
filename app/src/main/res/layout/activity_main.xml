@@ -35,4 +35,142 @@
               android:maxLines="1"
               />
 
+    <!-- Terceira Coluna -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/bt_limpar"
+                style="@style/Operators_Button"
+                android:layout_weight="3"
+                android:text="C"/>
+
+        <Button android:id="@+id/bt_divisao"
+                style="@style/Operators_Button"
+                android:text="/" />
+
+    </LinearLayout>
+
+    <!-- Quarta Coluna -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numero_sete"
+            style="@style/Numbers_Button"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/numero_oito"
+            style="@style/Numbers_Button"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/numero_9"
+            style="@style/Numbers_Button"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/multiplicao"
+            style="@style/Operators_Button"
+            android:text="x" />
+
+    </LinearLayout>
+
+    <!-- Quinta coluna -->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/numero_quatro"
+                style="@style/Numbers_Button"
+                android:text="4" />
+
+        <Button
+                android:id="@+id/numero_cinco"
+                style="@style/Numbers_Button"
+                android:text="5" />
+
+        <Button
+                android:id="@+id/numero_seis"
+                style="@style/Numbers_Button"
+                android:text="6" />
+
+        <Button
+                android:id="@+id/subtracao"
+                style="@style/Operators_Button"
+                android:text="-" />
+
+    </LinearLayout>
+
+    <!-- Sexta Coluna -->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/numero_um"
+                style="@style/Numbers_Button"
+                android:text="1" />
+
+        <Button
+                android:id="@+id/numero_dois"
+                style="@style/Numbers_Button"
+                android:text="2" />
+
+        <Button
+                android:id="@+id/numero_tres"
+                style="@style/Numbers_Button"
+                android:text="3" />
+
+       <Button
+                android:id="@+id/soma"
+                style="@style/Operators_Button"
+                android:text="+" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ponto"
+            style="@style/Numbers_Button"
+            android:text="." />
+
+        <Button
+            android:id="@+id/numero_0"
+            style="@style/Numbers_Button"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/backspace"
+            style="@style/Numbers_Button"
+            android:text="del" />
+
+        <Button
+            android:id="@+id/igual"
+            style="@style/Operators_Button"
+            android:text="=" />
+
+
+    </LinearLayout>
+
 </LinearLayout>
