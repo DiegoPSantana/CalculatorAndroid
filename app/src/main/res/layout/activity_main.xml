@@ -78,7 +78,7 @@
             android:text="9" />
 
         <Button
-            android:id="@+id/multiplicao"
+            android:id="@+id/multiplicacao"
             style="@style/Operators_Button"
             android:text="x" />
 
@@ -160,10 +160,12 @@
             style="@style/Numbers_Button"
             android:text="0" />
 
-        <Button
+        <ImageView
             android:id="@+id/backspace"
             style="@style/Numbers_Button"
-            android:text="del" />
+            android:src="@drawable/backspace"
+            android:scaleType="center"
+            />
 
         <Button
             android:id="@+id/igual"
