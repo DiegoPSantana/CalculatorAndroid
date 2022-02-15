@@ -41,6 +41,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         multiplicacao.setOnClickListener(this);
         divisao.setOnClickListener(this);
 
+        botao_Limpar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                txtExpresao.setText("");
+                txtResultado.setText("");
+            }
+        });
     }
 
     private void IniciarComponentes(){
